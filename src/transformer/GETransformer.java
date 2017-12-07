@@ -3,6 +3,8 @@ package transformer;
 import java.awt.BasicStroke;
 import java.awt.Graphics2D;
 import java.awt.Point;
+import java.awt.geom.AffineTransform;
+import java.util.ArrayList;
 
 import constant.GEConstants;
 import shapes.GEShape;
@@ -10,6 +12,8 @@ import shapes.GEShape;
 public abstract class GETransformer {
 	protected GEShape shape;
 	protected BasicStroke dashedLineStroke;
+	protected ArrayList<GEShape> shapelist;
+	protected AffineTransform affineTransform;
 	
 	public GETransformer(GEShape shape){
 		this.shape = shape;

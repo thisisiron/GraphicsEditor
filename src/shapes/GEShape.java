@@ -38,6 +38,10 @@ public abstract class GEShape {
 		return selected;
 	}
 
+	
+	public Shape getMyShape() {
+		return myShape;
+	}
 
 	public EAnchorTypes getSelectedAnchor() {
 		return selectedAnchor;
@@ -54,10 +58,11 @@ public abstract class GEShape {
 		return selectedAnchor;
 	}
 
-
+	public void setMyShape(Shape myShape) {
+		this.myShape = myShape;
+	}
 	
-
-	public void setFilColor(Color fillColor) {
+	public void setFillColor(Color fillColor) {
 		this.fillColor = fillColor;
 	}
 
@@ -67,6 +72,14 @@ public abstract class GEShape {
 		this.lineColor = lineColor;
 	}
 
+	
+	public Color getLineColor(){
+		return lineColor;
+	}
+	
+	public Color getFillColor(){
+		return fillColor;
+	}
 
 
 	public void draw(Graphics2D g2D) {
@@ -96,6 +109,23 @@ public abstract class GEShape {
 			anchorList = null;
 		}
 	}
+	
+	protected void setShape(Shape shape){
+		myShape = shape;
+	}
+	public void setAnchorList(GEAnchorList anchorList){
+		this.anchorList = anchorList;
+	}
+	
+	
+	public void setGraphicsAttributes(GEShape shape){
+		setLineColor(shape.getLineColor());
+		setFillColor(shape.getFillColor());
+		setAnchorList(shape.getAnchorList());
+		setAnchorList(shape.getAnchorList());
+		setSelected(shape.isSelected());	
+	}
+	
 	
 	public boolean onShape(Point P)	{
 		if(anchorList != null){
@@ -135,4 +165,5 @@ public abstract class GEShape {
 	public abstract void initDraw(Point startP);
 	public abstract void setCoordinate(Point currentP);
 	public abstract GEShape clone(); 
+	abstract public GEShape deepCopy();
 }

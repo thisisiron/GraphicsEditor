@@ -8,6 +8,7 @@ import shapes.GEShape;
 public class GEMover extends GETransformer {
 
 	private Point previousP;
+	private boolean moved;
 	
 	public GEMover(GEShape shape) {
 		super(shape);
@@ -23,6 +24,14 @@ public class GEMover extends GETransformer {
 		shape.moveCoordinate(tempP); 
 		shape.draw(g2d);
 		previousP = p; //갱신시켜주도록한다.
+	}
+	
+	public boolean isMoved(){
+		return moved;
+	}
+	
+	public void setMove(boolean moved){
+		this.moved = moved;
 	}
 
 	@Override

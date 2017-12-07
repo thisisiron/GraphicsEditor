@@ -1,6 +1,8 @@
 package shapes;
 
 import java.awt.Point;
+import java.awt.Shape;
+import java.awt.geom.AffineTransform;
 import java.awt.geom.Line2D;
 
 public class GELine  extends GEShape{
@@ -30,5 +32,15 @@ public class GELine  extends GEShape{
 		// TODO Auto-generated method stub
 		return new GELine();
 	}	
+	
+	
+	public GEShape deepCopy(){
+		AffineTransform affineTransform = new AffineTransform();
+		Shape newShape = affineTransform.createTransformedShape(myShape);
+		GELine shape = new GELine();
+		shape.setShape(newShape);
+		shape.setGraphicsAttributes(this);
+		return shape;
+	}
 	
 }

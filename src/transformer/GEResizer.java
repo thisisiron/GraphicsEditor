@@ -9,12 +9,12 @@ import java.awt.geom.Point2D;
 import constant.GEConstants.EAnchorTypes;
 import shapes.GEShape;
 
-public class GERsizer extends GETransformer {
+public class GEResizer extends GETransformer {
 
 	private  Point resizeAnchor;
 	private Point previousP;
 	
-	public GERsizer(GEShape shape) {
+	public GEResizer(GEShape shape) {
 		super(shape);
 		previousP = new Point();
 	}
