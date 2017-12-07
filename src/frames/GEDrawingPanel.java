@@ -96,7 +96,6 @@ public class GEDrawingPanel extends JPanel{
 	}
 	
 	public void setCurrentShape(GEShape currentShape) {
-//		System.out.println("setCurrentShape");
 		this.currentShape = currentShape;
 	}
 
@@ -144,7 +143,7 @@ public class GEDrawingPanel extends JPanel{
 		history.push(shapeList);
 	}
 	
-	// 그룹 생성
+		// 그룹 생성
 		public void group(GEGroup group) {   
 			boolean check = false;   
 			for (int i = shapeList.size(); i > 0; i--) { 
@@ -181,7 +180,7 @@ public class GEDrawingPanel extends JPanel{
 		} 
 	
 	
-	//paste
+	//붙이기
 	public void paste(){
 		ArrayList<GEShape> pasteShapes = clipboard.paste();
 		for(int i=pasteShapes.size()-1; i>=0; i--){
@@ -197,12 +196,14 @@ public class GEDrawingPanel extends JPanel{
 		
 	}
 	
+	//잘라내기
 	public void cut(){
 		clipboard.cut(shapeList);
 		addHistory();
 		repaint();
 	}
 	
+	//삭제
 	public void delete(){
 		for(int i = shapeList.size(); i > 0 ; i--){
 			GEShape shape = shapeList.get(i-1);
@@ -214,6 +215,7 @@ public class GEDrawingPanel extends JPanel{
 		addHistory();
 		repaint();
 	}
+	
 	
 	public void undo(){
 		shapeList = history.undo();
