@@ -1,0 +1,730 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<class-diagram version="1.2.2" icons="false" automaticImage="JPEG" always-add-relationships="false" 
+  generalizations="true" realizations="true" associations="true" dependencies="true" nesting-relationships="false" 
+  router="FAN">  
+  <class id="1" language="java" name="constants.GEConstants" project="GraphicsEditor" 
+    file="/GraphicsEditor/src/constants/GEConstants.java" binary="false" corner="BOTTOM_RIGHT">    
+    <position height="22" width="81" x="968" y="677"/>    
+    <display autosize="true" stereotype="false" package="false" initial-value="false" signature="false" 
+      sort-features="false" accessors="true" visibility="false">      
+      <attributes public="false" package="false" protected="false" private="false" static="false"/>      
+      <operations public="false" package="false" protected="false" private="false" static="false"/>    
+    </display>  
+  </class>  
+  <class id="2" language="java" name="frames.GEToolBar" project="GraphicsEditor" 
+    file="/GraphicsEditor/src/frames/GEToolBar.java" binary="false" corner="BOTTOM_RIGHT">    
+    <position height="22" width="66" x="995" y="233"/>    
+    <display autosize="true" stereotype="false" package="false" initial-value="false" signature="false" 
+      sort-features="false" accessors="true" visibility="false">      
+      <attributes public="false" package="false" protected="false" private="false" static="false"/>      
+      <operations public="false" package="false" protected="false" private="false" static="false"/>    
+    </display>  
+  </class>  
+  <class id="3" language="java" name="frames.GEMainFrame" project="GraphicsEditor" 
+    file="/GraphicsEditor/src/frames/GEMainFrame.java" binary="false" corner="BOTTOM_RIGHT">    
+    <position height="22" width="86" x="995" y="99"/>    
+    <display autosize="true" stereotype="false" package="false" initial-value="false" signature="false" 
+      sort-features="false" accessors="true" visibility="false">      
+      <attributes public="false" package="false" protected="false" private="false" static="false"/>      
+      <operations public="false" package="false" protected="false" private="false" static="false"/>    
+    </display>  
+  </class>  
+  <class id="4" language="java" name="frames.GELauncher" project="GraphicsEditor" 
+    file="/GraphicsEditor/src/frames/GELauncher.java" binary="false" corner="BOTTOM_RIGHT">    
+    <position height="22" width="77" x="995" y="37"/>    
+    <display autosize="true" stereotype="false" package="false" initial-value="false" signature="false" 
+      sort-features="false" accessors="true" visibility="false">      
+      <attributes public="false" package="false" protected="false" private="false" static="false"/>      
+      <operations public="false" package="false" protected="false" private="false" static="false"/>    
+    </display>  
+  </class>  
+  <class id="5" language="java" name="frames.GEDrawingPanel" project="GraphicsEditor" 
+    file="/GraphicsEditor/src/frames/GEDrawingPanel.java" binary="false" corner="BOTTOM_RIGHT">    
+    <position height="22" width="102" x="826" y="295"/>    
+    <display autosize="true" stereotype="false" package="false" initial-value="false" signature="false" 
+      sort-features="false" accessors="true" visibility="false">      
+      <attributes public="false" package="false" protected="false" private="false" static="false"/>      
+      <operations public="false" package="false" protected="false" private="false" static="false"/>    
+    </display>  
+  </class>  
+  <class id="6" language="java" name="menus.GEMenuBar" project="GraphicsEditor" 
+    file="/GraphicsEditor/src/menus/GEMenuBar.java" binary="false" corner="BOTTOM_RIGHT">    
+    <position height="22" width="74" x="480" y="171"/>    
+    <display autosize="true" stereotype="false" package="false" initial-value="false" signature="false" 
+      sort-features="false" accessors="true" visibility="false">      
+      <attributes public="false" package="false" protected="false" private="false" static="false"/>      
+      <operations public="false" package="false" protected="false" private="false" static="false"/>    
+    </display>  
+  </class>  
+  <class id="7" language="java" name="menus.GEMenuEdit" project="GraphicsEditor" 
+    file="/GraphicsEditor/src/menus/GEMenuEdit.java" binary="false" corner="BOTTOM_RIGHT">    
+    <position height="22" width="75" x="826" y="233"/>    
+    <display autosize="true" stereotype="false" package="false" initial-value="false" signature="false" 
+      sort-features="false" accessors="true" visibility="false">      
+      <attributes public="false" package="false" protected="false" private="false" static="false"/>      
+      <operations public="false" package="false" protected="false" private="false" static="false"/>    
+    </display>  
+  </class>  
+  <class id="8" language="java" name="menus.GEMenuFile" project="GraphicsEditor" 
+    file="/GraphicsEditor/src/menus/GEMenuFile.java" binary="false" corner="BOTTOM_RIGHT">    
+    <position height="22" width="73" x="41" y="233"/>    
+    <display autosize="true" stereotype="false" package="false" initial-value="false" signature="false" 
+      sort-features="false" accessors="true" visibility="false">      
+      <attributes public="false" package="false" protected="false" private="false" static="false"/>      
+      <operations public="false" package="false" protected="false" private="false" static="false"/>    
+    </display>  
+  </class>  
+  <class id="9" language="java" name="menus.GEMenuColor" project="GraphicsEditor" 
+    file="/GraphicsEditor/src/menus/GEMenuColor.java" binary="false" corner="BOTTOM_RIGHT">    
+    <position height="22" width="84" x="404" y="233"/>    
+    <display autosize="true" stereotype="false" package="false" initial-value="false" signature="false" 
+      sort-features="false" accessors="true" visibility="false">      
+      <attributes public="false" package="false" protected="false" private="false" static="false"/>      
+      <operations public="false" package="false" protected="false" private="false" static="false"/>    
+    </display>  
+  </class>  
+  <class id="10" language="java" name="shapes.GERectangle" project="GraphicsEditor" 
+    file="/GraphicsEditor/src/shapes/GERectangle.java" binary="false" corner="BOTTOM_RIGHT">    
+    <position height="22" width="80" x="846" y="553"/>    
+    <display autosize="true" stereotype="false" package="false" initial-value="false" signature="false" 
+      sort-features="false" accessors="true" visibility="false">      
+      <attributes public="false" package="false" protected="false" private="false" static="false"/>      
+      <operations public="false" package="false" protected="false" private="false" static="false"/>    
+    </display>  
+  </class>  
+  <class id="11" language="java" name="shapes.GEShape" project="GraphicsEditor" 
+    file="/GraphicsEditor/src/shapes/GEShape.java" binary="false" corner="BOTTOM_RIGHT">    
+    <position height="22" width="61" x="784" y="491"/>    
+    <display autosize="true" stereotype="false" package="false" initial-value="false" signature="false" 
+      sort-features="false" accessors="true" visibility="false">      
+      <attributes public="false" package="false" protected="false" private="false" static="false"/>      
+      <operations public="false" package="false" protected="false" private="false" static="false"/>    
+    </display>  
+  </class>  
+  <class id="12" language="java" name="shapes.GELine" project="GraphicsEditor" 
+    file="/GraphicsEditor/src/shapes/GELine.java" binary="false" corner="BOTTOM_RIGHT">    
+    <position height="22" width="47" x="659" y="553"/>    
+    <display autosize="true" stereotype="false" package="false" initial-value="false" signature="false" 
+      sort-features="false" accessors="true" visibility="false">      
+      <attributes public="false" package="false" protected="false" private="false" static="false"/>      
+      <operations public="false" package="false" protected="false" private="false" static="false"/>    
+    </display>  
+  </class>  
+  <class id="13" language="java" name="shapes.GEPolygon" project="GraphicsEditor" 
+    file="/GraphicsEditor/src/shapes/GEPolygon.java" binary="false" corner="BOTTOM_RIGHT">    
+    <position height="22" width="68" x="551" y="553"/>    
+    <display autosize="true" stereotype="false" package="false" initial-value="false" signature="false" 
+      sort-features="false" accessors="true" visibility="false">      
+      <attributes public="false" package="false" protected="false" private="false" static="false"/>      
+      <operations public="false" package="false" protected="false" private="false" static="false"/>    
+    </display>  
+  </class>  
+  <class id="14" language="java" name="shapes.GESelect" project="GraphicsEditor" 
+    file="/GraphicsEditor/src/shapes/GESelect.java" binary="false" corner="BOTTOM_RIGHT">    
+    <position height="22" width="59" x="1092" y="553"/>    
+    <display autosize="true" stereotype="false" package="false" initial-value="false" signature="false" 
+      sort-features="false" accessors="true" visibility="false">      
+      <attributes public="false" package="false" protected="false" private="false" static="false"/>      
+      <operations public="false" package="false" protected="false" private="false" static="false"/>    
+    </display>  
+  </class>  
+  <class id="15" language="java" name="shapes.GEEllipse" project="GraphicsEditor" 
+    file="/GraphicsEditor/src/shapes/GEEllipse.java" binary="false" corner="BOTTOM_RIGHT">    
+    <position height="22" width="60" x="746" y="553"/>    
+    <display autosize="true" stereotype="false" package="false" initial-value="false" signature="false" 
+      sort-features="false" accessors="true" visibility="false">      
+      <attributes public="false" package="false" protected="false" private="false" static="false"/>      
+      <operations public="false" package="false" protected="false" private="false" static="false"/>    
+    </display>  
+  </class>  
+  <class id="16" language="java" name="shapes.GEGroup" project="GraphicsEditor" 
+    file="/GraphicsEditor/src/shapes/GEGroup.java" binary="false" corner="BOTTOM_RIGHT">    
+    <position height="22" width="57" x="1031" y="429"/>    
+    <display autosize="true" stereotype="false" package="false" initial-value="false" signature="false" 
+      sort-features="false" accessors="true" visibility="false">      
+      <attributes public="false" package="false" protected="false" private="false" static="false"/>      
+      <operations public="false" package="false" protected="false" private="false" static="false"/>    
+    </display>  
+  </class>  
+  <class id="17" language="java" name="transformer.GEMover" project="GraphicsEditor" 
+    file="/GraphicsEditor/src/transformer/GEMover.java" binary="false" corner="BOTTOM_RIGHT">    
+    <position height="22" width="58" x="558" y="429"/>    
+    <display autosize="true" stereotype="false" package="false" initial-value="false" signature="false" 
+      sort-features="false" accessors="true" visibility="false">      
+      <attributes public="false" package="false" protected="false" private="false" static="false"/>      
+      <operations public="false" package="false" protected="false" private="false" static="false"/>    
+    </display>  
+  </class>  
+  <class id="18" language="java" name="transformer.GEDrawer" project="GraphicsEditor" 
+    file="/GraphicsEditor/src/transformer/GEDrawer.java" binary="false" corner="BOTTOM_RIGHT">    
+    <position height="22" width="65" x="677" y="429"/>    
+    <display autosize="true" stereotype="false" package="false" initial-value="false" signature="false" 
+      sort-features="false" accessors="true" visibility="false">      
+      <attributes public="false" package="false" protected="false" private="false" static="false"/>      
+      <operations public="false" package="false" protected="false" private="false" static="false"/>    
+    </display>  
+  </class>  
+  <class id="19" language="java" name="transformer.GEGrouper" project="GraphicsEditor" 
+    file="/GraphicsEditor/src/transformer/GEGrouper.java" binary="false" corner="BOTTOM_RIGHT">    
+    <position height="22" width="69" x="344" y="429"/>    
+    <display autosize="true" stereotype="false" package="false" initial-value="false" signature="false" 
+      sort-features="false" accessors="true" visibility="false">      
+      <attributes public="false" package="false" protected="false" private="false" static="false"/>      
+      <operations public="false" package="false" protected="false" private="false" static="false"/>    
+    </display>  
+  </class>  
+  <class id="20" language="java" name="transformer.GERotater" project="GraphicsEditor" 
+    file="/GraphicsEditor/src/transformer/GERotater.java" binary="false" corner="BOTTOM_RIGHT">    
+    <position height="22" width="65" x="453" y="429"/>    
+    <display autosize="true" stereotype="false" package="false" initial-value="false" signature="false" 
+      sort-features="false" accessors="true" visibility="false">      
+      <attributes public="false" package="false" protected="false" private="false" static="false"/>      
+      <operations public="false" package="false" protected="false" private="false" static="false"/>    
+    </display>  
+  </class>  
+  <class id="21" language="java" name="transformer.GETransformer" project="GraphicsEditor" 
+    file="/GraphicsEditor/src/transformer/GETransformer.java" binary="false" corner="BOTTOM_RIGHT">    
+    <position height="22" width="97" x="527" y="367"/>    
+    <display autosize="true" stereotype="false" package="false" initial-value="false" signature="false" 
+      sort-features="false" accessors="true" visibility="false">      
+      <attributes public="false" package="false" protected="false" private="false" static="false"/>      
+      <operations public="false" package="false" protected="false" private="false" static="false"/>    
+    </display>  
+  </class>  
+  <class id="22" language="java" name="transformer.GEResizer" project="GraphicsEditor" 
+    file="/GraphicsEditor/src/transformer/GEResizer.java" binary="false" corner="BOTTOM_RIGHT">    
+    <position height="22" width="66" x="217" y="429"/>    
+    <display autosize="true" stereotype="false" package="false" initial-value="false" signature="false" 
+      sort-features="false" accessors="true" visibility="false">      
+      <attributes public="false" package="false" protected="false" private="false" static="false"/>      
+      <operations public="false" package="false" protected="false" private="false" static="false"/>    
+    </display>  
+  </class>  
+  <class id="23" language="java" name="utils.GEAnchorList" project="GraphicsEditor" 
+    file="/GraphicsEditor/src/utils/GEAnchorList.java" binary="false" corner="BOTTOM_RIGHT">    
+    <position height="22" width="85" x="862" y="615"/>    
+    <display autosize="true" stereotype="false" package="false" initial-value="false" signature="false" 
+      sort-features="false" accessors="true" visibility="false">      
+      <attributes public="false" package="false" protected="false" private="false" static="false"/>      
+      <operations public="false" package="false" protected="false" private="false" static="false"/>    
+    </display>  
+  </class>  
+  <class id="24" language="java" name="utils.GETextRotater" project="GraphicsEditor" 
+    file="/GraphicsEditor/src/utils/GETextRotater.java" binary="false" corner="BOTTOM_RIGHT">    
+    <position height="22" width="89" x="900" y="367"/>    
+    <display autosize="true" stereotype="false" package="false" initial-value="false" signature="false" 
+      sort-features="false" accessors="true" visibility="false">      
+      <attributes public="false" package="false" protected="false" private="false" static="false"/>      
+      <operations public="false" package="false" protected="false" private="false" static="false"/>    
+    </display>  
+  </class>  
+  <class id="25" language="java" name="utils.GETextRotater.InputListener" project="GraphicsEditor" 
+    file="/GraphicsEditor/src/utils/GETextRotater.java" binary="false" corner="BOTTOM_RIGHT">    
+    <position height="22" width="83" x="866" y="429"/>    
+    <display autosize="true" stereotype="false" package="false" initial-value="false" signature="false" 
+      sort-features="false" accessors="true" visibility="false">      
+      <attributes public="false" package="false" protected="false" private="false" static="false"/>      
+      <operations public="false" package="false" protected="false" private="false" static="false"/>    
+    </display>  
+  </class>  
+  <class id="26" language="java" name="utils.GEClipBoard" project="GraphicsEditor" 
+    file="/GraphicsEditor/src/utils/GEClipBoard.java" binary="false" corner="BOTTOM_RIGHT">    
+    <position height="22" width="78" x="685" y="367"/>    
+    <display autosize="true" stereotype="false" package="false" initial-value="false" signature="false" 
+      sort-features="false" accessors="true" visibility="false">      
+      <attributes public="false" package="false" protected="false" private="false" static="false"/>      
+      <operations public="false" package="false" protected="false" private="false" static="false"/>    
+    </display>  
+  </class>  
+  <class id="27" language="java" name="utils.GECursorManager" project="GraphicsEditor" 
+    file="/GraphicsEditor/src/utils/GECursorManager.java" binary="false" corner="BOTTOM_RIGHT">    
+    <position height="22" width="112" x="272" y="367"/>    
+    <display autosize="true" stereotype="false" package="false" initial-value="false" signature="false" 
+      sort-features="false" accessors="true" visibility="false">      
+      <attributes public="false" package="false" protected="false" private="false" static="false"/>      
+      <operations public="false" package="false" protected="false" private="false" static="false"/>    
+    </display>  
+  </class>  
+  <class id="28" language="java" name="utils.GEHistory" project="GraphicsEditor" 
+    file="/GraphicsEditor/src/utils/GEHistory.java" binary="false" corner="BOTTOM_RIGHT">    
+    <position height="22" width="63" x="424" y="367"/>    
+    <display autosize="true" stereotype="false" package="false" initial-value="false" signature="false" 
+      sort-features="false" accessors="true" visibility="false">      
+      <attributes public="false" package="false" protected="false" private="false" static="false"/>      
+      <operations public="false" package="false" protected="false" private="false" static="false"/>    
+    </display>  
+  </class>  
+  <dependency id="29">    
+    <bendpoint x="165" y="295"/>    
+    <bendpoint x="165" y="367"/>    
+    <bendpoint x="165" y="429"/>    
+    <bendpoint x="165" y="491"/>    
+    <bendpoint x="165" y="553"/>    
+    <bendpoint x="165" y="615"/>    
+    <end type="SOURCE" refId="9"/>    
+    <end type="TARGET" refId="1"/>  
+  </dependency>  
+  <dependency id="30">    
+    <bendpoint x="1019" y="367"/>    
+    <end type="SOURCE" refId="5"/>    
+    <end type="TARGET" refId="16"/>  
+  </dependency>  
+  <dependency id="31">    
+    <bendpoint x="654" y="367"/>    
+    <end type="SOURCE" refId="5"/>    
+    <end type="TARGET" refId="18"/>  
+  </dependency>  
+  <association id="32">    
+    <end type="SOURCE" refId="24" navigable="false">      
+      <attribute id="33" name="drawingPanel"/>      
+      <multiplicity id="34" minimum="0" maximum="1"/>    
+    </end>    
+    <end type="TARGET" refId="5" navigable="true"/>    
+    <display labels="false" multiplicity="false"/>  
+  </association>  
+  <dependency id="35">    
+    <bendpoint x="1019" y="491"/>    
+    <bendpoint x="1019" y="553"/>    
+    <end type="SOURCE" refId="16"/>    
+    <end type="TARGET" refId="23"/>  
+  </dependency>  
+  <association id="36">    
+    <bendpoint x="835" y="367"/>    
+    <bendpoint x="835" y="429"/>    
+    <end type="SOURCE" refId="5" navigable="false">      
+      <attribute id="37" name="selectedShape"/>      
+      <multiplicity id="38" minimum="0" maximum="1"/>    
+    </end>    
+    <end type="TARGET" refId="11" navigable="true"/>    
+    <display labels="false" multiplicity="false"/>  
+  </association>  
+  <dependency id="39">    
+    <end type="SOURCE" refId="13"/>    
+    <end type="TARGET" refId="23"/>  
+  </dependency>  
+  <generalization id="40">    
+    <end type="SOURCE" refId="15"/>    
+    <end type="TARGET" refId="11"/>  
+  </generalization>  
+  <association id="41">    
+    <end type="SOURCE" refId="20" navigable="false">      
+      <attribute id="42" name="shapelist"/>      
+      <multiplicity id="43" minimum="0" maximum="2147483647"/>    
+    </end>    
+    <end type="TARGET" refId="11" navigable="true"/>    
+    <display labels="false" multiplicity="false"/>  
+  </association>  
+  <dependency id="44">    
+    <bendpoint x="1223" y="171"/>    
+    <bendpoint x="1223" y="233"/>    
+    <bendpoint x="1223" y="295"/>    
+    <bendpoint x="1223" y="367"/>    
+    <bendpoint x="1223" y="429"/>    
+    <bendpoint x="1223" y="491"/>    
+    <bendpoint x="1223" y="553"/>    
+    <bendpoint x="1223" y="615"/>    
+    <end type="SOURCE" refId="3"/>    
+    <end type="TARGET" refId="1"/>  
+  </dependency>  
+  <association id="45">    
+    <end type="SOURCE" refId="16" navigable="false">      
+      <attribute id="46" name="shapeList"/>      
+      <multiplicity id="47" minimum="0" maximum="2147483647"/>    
+    </end>    
+    <end type="TARGET" refId="11" navigable="true"/>    
+    <display labels="false" multiplicity="false"/>  
+  </association>  
+  <association id="48">    
+    <bendpoint x="772" y="429"/>    
+    <end type="SOURCE" refId="26" navigable="false">      
+      <attribute id="49" name="clipBaord"/>      
+      <multiplicity id="50" minimum="0" maximum="2147483647"/>    
+    </end>    
+    <end type="TARGET" refId="11" navigable="true"/>    
+    <display labels="false" multiplicity="false"/>  
+  </association>  
+  <association id="51">    
+    <end type="SOURCE" refId="5" navigable="false">      
+      <attribute id="52" name="clipboard"/>      
+      <multiplicity id="53" minimum="0" maximum="1"/>    
+    </end>    
+    <end type="TARGET" refId="26" navigable="true"/>    
+    <display labels="false" multiplicity="false"/>  
+  </association>  
+  <dependency id="54">    
+    <end type="SOURCE" refId="17"/>    
+    <end type="TARGET" refId="11"/>  
+  </dependency>  
+  <association id="55">    
+    <bendpoint x="979" y="429"/>    
+    <end type="SOURCE" refId="24" navigable="false">      
+      <attribute id="56" name="shape"/>      
+      <multiplicity id="57" minimum="0" maximum="1"/>    
+    </end>    
+    <end type="TARGET" refId="11" navigable="true"/>    
+    <display labels="false" multiplicity="false"/>  
+  </association>  
+  <association id="58">    
+    <end type="SOURCE" refId="2" navigable="false">      
+      <attribute id="59" name="drawingPanel"/>      
+      <multiplicity id="60" minimum="0" maximum="1"/>    
+    </end>    
+    <end type="TARGET" refId="5" navigable="true"/>    
+    <display labels="false" multiplicity="false"/>  
+  </association>  
+  <generalization id="61">    
+    <end type="SOURCE" refId="16"/>    
+    <end type="TARGET" refId="11"/>  
+  </generalization>  
+  <association id="62">    
+    <end type="SOURCE" refId="6" navigable="false">      
+      <attribute id="63" name="colorMenu"/>      
+      <multiplicity id="64" minimum="0" maximum="1"/>    
+    </end>    
+    <end type="TARGET" refId="9" navigable="true"/>    
+    <display labels="false" multiplicity="false"/>  
+  </association>  
+  <generalization id="65">    
+    <end type="SOURCE" refId="14"/>    
+    <end type="TARGET" refId="11"/>  
+  </generalization>  
+  <association id="66">    
+    <end type="SOURCE" refId="5" navigable="false">      
+      <attribute id="67" name="textRotater"/>      
+      <multiplicity id="68" minimum="0" maximum="1"/>    
+    </end>    
+    <end type="TARGET" refId="24" navigable="true"/>    
+    <display labels="false" multiplicity="false"/>  
+  </association>  
+  <dependency id="69">    
+    <end type="SOURCE" refId="25"/>    
+    <end type="TARGET" refId="11"/>  
+  </dependency>  
+  <generalization id="70">    
+    <end type="SOURCE" refId="12"/>    
+    <end type="TARGET" refId="11"/>  
+  </generalization>  
+  <dependency id="71">    
+    <bendpoint x="1118" y="429"/>    
+    <bendpoint x="1090" y="491"/>    
+    <bendpoint x="1061" y="553"/>    
+    <bendpoint x="1061" y="615"/>    
+    <end type="SOURCE" refId="24"/>    
+    <end type="TARGET" refId="1"/>  
+  </dependency>  
+  <association id="72">    
+    <end type="SOURCE" refId="6" navigable="false">      
+      <attribute id="73" name="editMenu"/>      
+      <multiplicity id="74" minimum="0" maximum="1"/>    
+    </end>    
+    <end type="TARGET" refId="7" navigable="true"/>    
+    <display labels="false" multiplicity="false"/>  
+  </association>  
+  <dependency id="75">    
+    <end type="SOURCE" refId="15"/>    
+    <end type="TARGET" refId="23"/>  
+  </dependency>  
+  <association id="76">    
+    <end type="SOURCE" refId="6" navigable="false">      
+      <attribute id="77" name="fileMenu"/>      
+      <multiplicity id="78" minimum="0" maximum="1"/>    
+    </end>    
+    <end type="TARGET" refId="8" navigable="true"/>    
+    <display labels="false" multiplicity="false"/>  
+  </association>  
+  <association id="79">    
+    <bendpoint x="646" y="429"/>    
+    <end type="SOURCE" refId="21" navigable="false">      
+      <attribute id="80" name="shape"/>      
+      <multiplicity id="81" minimum="0" maximum="1"/>    
+    </end>    
+    <end type="TARGET" refId="11" navigable="true"/>    
+    <display labels="false" multiplicity="false"/>  
+  </association>  
+  <association id="82">    
+    <end type="SOURCE" refId="3" navigable="false">      
+      <attribute id="83" name="uniqueFrame"/>      
+      <multiplicity id="84" minimum="0" maximum="1"/>    
+    </end>    
+    <end type="TARGET" refId="3" navigable="true"/>    
+    <display labels="false" multiplicity="false"/>  
+  </association>  
+  <association id="85">    
+    <end type="SOURCE" refId="7" navigable="false">      
+      <attribute id="86" name="drawingPanel"/>      
+      <multiplicity id="87" minimum="0" maximum="1"/>    
+    </end>    
+    <end type="TARGET" refId="5" navigable="true"/>    
+    <display labels="false" multiplicity="false"/>  
+  </association>  
+  <dependency id="88">    
+    <bendpoint x="977" y="553"/>    
+    <bendpoint x="977" y="615"/>    
+    <end type="SOURCE" refId="11"/>    
+    <end type="TARGET" refId="1"/>  
+  </dependency>  
+  <dependency id="89">    
+    <end type="SOURCE" refId="12"/>    
+    <end type="TARGET" refId="23"/>  
+  </dependency>  
+  <association id="90">    
+    <end type="SOURCE" refId="24" navigable="false">      
+      <attribute id="91" name="inputListener"/>      
+      <multiplicity id="92" minimum="0" maximum="1"/>    
+    </end>    
+    <end type="TARGET" refId="25" navigable="true"/>    
+    <display labels="false" multiplicity="false"/>  
+  </association>  
+  <generalization id="93">    
+    <end type="SOURCE" refId="18"/>    
+    <end type="TARGET" refId="21"/>  
+  </generalization>  
+  <dependency id="94">    
+    <bendpoint x="1202" y="295"/>    
+    <bendpoint x="1202" y="367"/>    
+    <bendpoint x="1202" y="429"/>    
+    <bendpoint x="1202" y="491"/>    
+    <bendpoint x="1202" y="553"/>    
+    <bendpoint x="1202" y="615"/>    
+    <end type="SOURCE" refId="2"/>    
+    <end type="TARGET" refId="1"/>  
+  </dependency>  
+  <association id="95">    
+    <end type="SOURCE" refId="3" navigable="false">      
+      <attribute id="96" name="menuBar"/>      
+      <multiplicity id="97" minimum="0" maximum="1"/>    
+    </end>    
+    <end type="TARGET" refId="6" navigable="true"/>    
+    <display labels="false" multiplicity="false"/>  
+  </association>  
+  <association id="98">    
+    <bendpoint x="931" y="171"/>    
+    <bendpoint x="931" y="233"/>    
+    <end type="SOURCE" refId="3" navigable="false">      
+      <attribute id="99" name="drawingPanel"/>      
+      <multiplicity id="100" minimum="0" maximum="1"/>    
+    </end>    
+    <end type="TARGET" refId="5" navigable="true"/>    
+    <display labels="false" multiplicity="false"/>  
+  </association>  
+  <association id="101">    
+    <end type="SOURCE" refId="5" navigable="false">      
+      <attribute id="102" name="transformer"/>      
+      <multiplicity id="103" minimum="0" maximum="1"/>    
+    </end>    
+    <end type="TARGET" refId="21" navigable="true"/>    
+    <display labels="false" multiplicity="false"/>  
+  </association>  
+  <generalization id="104">    
+    <end type="SOURCE" refId="13"/>    
+    <end type="TARGET" refId="11"/>  
+  </generalization>  
+  <generalization id="105">    
+    <end type="SOURCE" refId="22"/>    
+    <end type="TARGET" refId="21"/>  
+  </generalization>  
+  <association id="106">    
+    <bendpoint x="793" y="367"/>    
+    <bendpoint x="793" y="429"/>    
+    <end type="SOURCE" refId="5" navigable="false">      
+      <attribute id="107" name="shapeList"/>      
+      <multiplicity id="108" minimum="0" maximum="2147483647"/>    
+    </end>    
+    <end type="TARGET" refId="11" navigable="true"/>    
+    <display labels="false" multiplicity="false"/>  
+  </association>  
+  <dependency id="109">    
+    <end type="SOURCE" refId="22"/>    
+    <end type="TARGET" refId="11"/>  
+  </dependency>  
+  <dependency id="110">    
+    <end type="SOURCE" refId="4"/>    
+    <end type="TARGET" refId="3"/>  
+  </dependency>  
+  <dependency id="111">    
+    <bendpoint x="856" y="367"/>    
+    <end type="SOURCE" refId="25"/>    
+    <end type="TARGET" refId="5"/>  
+  </dependency>  
+  <dependency id="112">    
+    <bendpoint x="478" y="491"/>    
+    <bendpoint x="520" y="553"/>    
+    <end type="SOURCE" refId="22"/>    
+    <end type="TARGET" refId="23"/>  
+  </dependency>  
+  <association id="113">    
+    <end type="SOURCE" refId="5" navigable="false">      
+      <attribute id="114" name="history"/>      
+      <multiplicity id="115" minimum="0" maximum="1"/>    
+    </end>    
+    <end type="TARGET" refId="28" navigable="true"/>    
+    <display labels="false" multiplicity="false"/>  
+  </association>  
+  <generalization id="116">    
+    <end type="SOURCE" refId="19"/>    
+    <end type="TARGET" refId="21"/>  
+  </generalization>  
+  <dependency id="117">    
+    <end type="SOURCE" refId="10"/>    
+    <end type="TARGET" refId="23"/>  
+  </dependency>  
+  <dependency id="118">    
+    <end type="SOURCE" refId="18"/>    
+    <end type="TARGET" refId="11"/>  
+  </dependency>  
+  <association id="119">    
+    <end type="SOURCE" refId="9" navigable="false">      
+      <attribute id="120" name="drawingPanel"/>      
+      <multiplicity id="121" minimum="0" maximum="1"/>    
+    </end>    
+    <end type="TARGET" refId="5" navigable="true"/>    
+    <display labels="false" multiplicity="false"/>  
+  </association>  
+  <dependency id="122">    
+    <bendpoint x="313" y="429"/>    
+    <end type="SOURCE" refId="28"/>    
+    <end type="TARGET" refId="11"/>  
+  </dependency>  
+  <generalization id="123">    
+    <end type="SOURCE" refId="17"/>    
+    <end type="TARGET" refId="21"/>  
+  </generalization>  
+  <dependency id="124">    
+    <bendpoint x="144" y="233"/>    
+    <bendpoint x="144" y="295"/>    
+    <bendpoint x="144" y="367"/>    
+    <bendpoint x="144" y="429"/>    
+    <bendpoint x="144" y="491"/>    
+    <bendpoint x="144" y="553"/>    
+    <bendpoint x="144" y="615"/>    
+    <end type="SOURCE" refId="6"/>    
+    <end type="TARGET" refId="1"/>  
+  </dependency>  
+  <generalization id="125">    
+    <end type="SOURCE" refId="10"/>    
+    <end type="TARGET" refId="11"/>  
+  </generalization>  
+  <association id="126">    
+    <bendpoint x="1004" y="171"/>    
+    <end type="SOURCE" refId="3" navigable="false">      
+      <attribute id="127" name="toolBar"/>      
+      <multiplicity id="128" minimum="0" maximum="1"/>    
+    </end>    
+    <end type="TARGET" refId="2" navigable="true"/>    
+    <display labels="false" multiplicity="false"/>  
+  </association>  
+  <association id="129">    
+    <end type="SOURCE" refId="5" navigable="false">      
+      <attribute id="130" name="instance"/>      
+      <multiplicity id="131" minimum="0" maximum="1"/>    
+    </end>    
+    <end type="TARGET" refId="5" navigable="true"/>    
+    <display labels="false" multiplicity="false"/>  
+  </association>  
+  <association id="132">    
+    <bendpoint x="814" y="367"/>    
+    <bendpoint x="814" y="429"/>    
+    <end type="SOURCE" refId="5" navigable="false">      
+      <attribute id="133" name="currentShape"/>      
+      <multiplicity id="134" minimum="0" maximum="1"/>    
+    </end>    
+    <end type="TARGET" refId="11" navigable="true"/>    
+    <display labels="false" multiplicity="false"/>  
+  </association>  
+  <dependency id="135">    
+    <bendpoint x="1040" y="295"/>    
+    <bendpoint x="1040" y="367"/>    
+    <end type="SOURCE" refId="7"/>    
+    <end type="TARGET" refId="16"/>  
+  </dependency>  
+  <dependency id="136">    
+    <bendpoint x="623" y="491"/>    
+    <end type="SOURCE" refId="18"/>    
+    <end type="TARGET" refId="13"/>  
+  </dependency>  
+  <dependency id="137">    
+    <bendpoint x="499" y="491"/>    
+    <bendpoint x="499" y="553"/>    
+    <bendpoint x="499" y="615"/>    
+    <end type="SOURCE" refId="19"/>    
+    <end type="TARGET" refId="1"/>  
+  </dependency>  
+  <dependency id="138">    
+    <bendpoint x="1040" y="491"/>    
+    <bendpoint x="1040" y="553"/>    
+    <bendpoint x="1040" y="615"/>    
+    <end type="SOURCE" refId="16"/>    
+    <end type="TARGET" refId="1"/>  
+  </dependency>  
+  <dependency id="139">    
+    <bendpoint x="662" y="233"/>    
+    <end type="SOURCE" refId="6"/>    
+    <end type="TARGET" refId="5"/>  
+  </dependency>  
+  <dependency id="140">    
+    <end type="SOURCE" refId="19"/>    
+    <end type="TARGET" refId="11"/>  
+  </dependency>  
+  <dependency id="141">    
+    <bendpoint x="186" y="429"/>    
+    <bendpoint x="186" y="491"/>    
+    <bendpoint x="186" y="553"/>    
+    <bendpoint x="186" y="615"/>    
+    <end type="SOURCE" refId="21"/>    
+    <end type="TARGET" refId="1"/>  
+  </dependency>  
+  <dependency id="142">    
+    <bendpoint x="1181" y="367"/>    
+    <bendpoint x="1181" y="429"/>    
+    <bendpoint x="1181" y="491"/>    
+    <bendpoint x="1181" y="553"/>    
+    <bendpoint x="1181" y="615"/>    
+    <end type="SOURCE" refId="5"/>    
+    <end type="TARGET" refId="1"/>  
+  </dependency>  
+  <dependency id="143">    
+    <end type="SOURCE" refId="23"/>    
+    <end type="TARGET" refId="1"/>  
+  </dependency>  
+  <dependency id="144">    
+    <bendpoint x="1139" y="367"/>    
+    <bendpoint x="1139" y="429"/>    
+    <bendpoint x="1139" y="491"/>    
+    <end type="SOURCE" refId="5"/>    
+    <end type="TARGET" refId="14"/>  
+  </dependency>  
+  <association id="145">    
+    <bendpoint x="956" y="553"/>    
+    <end type="SOURCE" refId="11" navigable="false">      
+      <attribute id="146" name="anchorList"/>      
+      <multiplicity id="147" minimum="0" maximum="1"/>    
+    </end>    
+    <end type="TARGET" refId="23" navigable="true"/>    
+    <display labels="false" multiplicity="false"/>  
+  </association>  
+  <dependency id="148">    
+    <bendpoint x="1000" y="429"/>    
+    <bendpoint x="998" y="491"/>    
+    <bendpoint x="998" y="553"/>    
+    <end type="SOURCE" refId="24"/>    
+    <end type="TARGET" refId="23"/>  
+  </dependency>  
+  <generalization id="149">    
+    <end type="SOURCE" refId="20"/>    
+    <end type="TARGET" refId="21"/>  
+  </generalization>  
+  <association id="150">    
+    <end type="SOURCE" refId="5" navigable="false">      
+      <attribute id="151" name="cursorManager"/>      
+      <multiplicity id="152" minimum="0" maximum="1"/>    
+    </end>    
+    <end type="TARGET" refId="27" navigable="true"/>    
+    <display labels="false" multiplicity="false"/>  
+  </association>  
+  <classifier-display autosize="true" stereotype="false" package="false" initial-value="false" signature="false" 
+    sort-features="false" accessors="true" visibility="false">    
+    <attributes public="false" package="false" protected="false" private="false" static="false"/>    
+    <operations public="false" package="false" protected="false" private="false" static="false"/>  
+  </classifier-display>  
+  <association-display labels="false" multiplicity="false"/>
+</class-diagram>
